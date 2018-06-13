@@ -30,7 +30,7 @@ public void getDetails()
 	int statusCode = response.getStatusCode();
 	// Assert that correct status code is returned.
 	Assert.assertEquals(statusCode , 200 , "Correct status code returned");
-	 System.out.println("Status code  is =>  " + statusCode);
+	System.out.println("Status code  is =>  " + statusCode);
 }
 
 }
