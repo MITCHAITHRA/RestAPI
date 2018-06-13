@@ -28,7 +28,7 @@ public class PostWeatherDetailsTest
 		requestParams.put("Phone number",  "1234565671");
 		requestParams.put("Email",  "xyz@gmail.com");
 		requestParams.put("Password", "password1");
-		System.out.println("**************************************************");
+		System.out.println("**************************************");
 		System.out.println(requestParams.get("Email"));
 		System.out.println(request.post("/register").asString());
 		// Add the Json to the body of the request
