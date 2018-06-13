@@ -19,6 +19,7 @@ public class PostWeatherDetailsTest
 		// JSON adding Key - Value pairs using the put method
 		JSONObject requestParams = new JSONObject();
 		System.out.println(requestParams);
+		request.header("Content-Type", "application/json");
 		System.out.println(request.post("/customer").asString());
 		requestParams.put("id", 101);
 		requestParams.put("FirstName", "allen");
