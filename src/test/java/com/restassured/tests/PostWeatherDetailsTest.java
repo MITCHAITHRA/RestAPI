@@ -23,6 +23,7 @@ public class PostWeatherDetailsTest
 		requestParams.put("id", 101);
 		requestParams.put("FirstName", "allen");
 		requestParams.put("LastName", "joy"); 
+		requestParams.put("Address", "103 Banglore");
 		requestParams.put("Phone number",  "1234565671");
 		requestParams.put("Email",  "xyz@gmail.com");
 		requestParams.put("Password", "password1");
