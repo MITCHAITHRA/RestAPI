@@ -13,7 +13,7 @@ public class PostWeatherDetailsTest
 	@Test
 	public void getDetails()
 	{
-		RestAssured.baseURI = "http://localhost:3000";
+		RestAssured.baseURI = "http://localhost:3000";// I have taken sample URL by installing Node JS
 		RequestSpecification request = RestAssured.given();
 		//JSONObject is a class that represents a simple
 		// JSON adding Key - Value pairs using the put method
