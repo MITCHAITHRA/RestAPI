@@ -1,6 +1,5 @@
 package com.restassured.tests;
 
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.jayway.restassured.RestAssured;
@@ -32,7 +31,5 @@ public void getDetails()
 	Assert.assertEquals(statusCode , 200 , "Correct status code returned");
 	System.out.println("Status code  is =>  " + statusCode);
 }
-
 }
-
 
