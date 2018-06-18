@@ -12,7 +12,7 @@ public class GetWeatherDetailsTest
 @Test
 public void getDetails()
 {
-	RestAssured.baseURI = "http://localhost:3000";
+	RestAssured.baseURI = "http://localhost:3000";//I have taken sample URL by installing Node JS
 	// Get the RequestSpecification of the request that you want to sent
 	// to the server. The server is specified by the BaseURI that we have
 	// specified in the above step.
